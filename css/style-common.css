@@ -319,7 +319,6 @@ main {
 /* Service Cards */
 
 .services h2 {
-    text-align: center;
     margin-bottom: 50px;
 }
 
@@ -458,4 +457,38 @@ main {
 
 .carousel-indicators button:not(.active):hover {
     background-color: var(--primary-color);
+}
+
+/* Contacts */
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.socials h2 {
+    margin-bottom: 50px;
+}
+
+.custom-icon {
+    width: 50px;
+    height: 50px;
+    fill: var(--primary-color);
+    transition: fill 0.3s ease;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.custom-icon:hover {
+    fill: var(--secondary-color-1);
+    background-color: var(--primary-color);
+}
+
+.socials a {
+    text-decoration: none;
+}
+
+/* Footer */
+.footer {
+    margin-bottom: 0px !important;
 }
